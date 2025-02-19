@@ -9,7 +9,7 @@ export default function Home() {
 
         <Image src={logo} alt="Nare Sushi Bar" className="w-52 invert" priority />
 
-        <div className="w-full flex justify-between items-center">
+        <div className="w-full flex flex-col lg:flex-row justify-between items-center">
           <p>Virrey Loreto 2025</p>
           <p>Piso 2</p>
         </div>
