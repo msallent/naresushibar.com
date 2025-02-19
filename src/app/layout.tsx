@@ -16,7 +16,7 @@ const minion = localFont({
 
 export const metadata: Metadata = {
   title: "nare sushi bar",
-  description: "nare sushi bar",
+  description: "próximamente en virrey loreto 2025",
 };
 
 type RootLayoutProps = {
