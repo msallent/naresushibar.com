@@ -37,13 +37,13 @@ export function Hero() {
         <CarouselProgress />
       </Carousel>
 
-      <nav className="text-12 absolute inset-x-0 top-[5vh] flex justify-center gap-4 text-white [&>a]:underline">
+      <nav className="text-12 absolute inset-x-0 top-[5%] flex justify-center gap-4 text-white [&>a]:underline">
         <a href="#about">Reservas</a>
         <a href="#contacto">Contacto</a>
         <a href="#contacto">Horarios</a>
       </nav>
 
-      <div className="text-10 absolute top-1/2 left-[7vw] flex h-[33.5vh] -translate-y-1/2 justify-between text-white [writing-mode:sideways-lr]">
+      <div className="text-10 absolute top-1/2 left-[7%] flex h-[33.5%] -translate-y-1/2 justify-between text-white [writing-mode:sideways-lr]">
         <p>Virrey Loreto 2035</p>
         <p>piso 2</p>
       </div>

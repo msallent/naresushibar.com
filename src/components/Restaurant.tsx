@@ -12,7 +12,7 @@ export function Restaurant() {
           src={logo}
           quality={100}
           placeholder="blur"
-          className="absolute inset-x-1/2 top-[15.14vh] z-10 w-32.5 -translate-x-1/2"
+          className="absolute inset-x-1/2 top-[15.14%] z-10 w-32.5 -translate-x-1/2"
         />
 
         <div className="relative">

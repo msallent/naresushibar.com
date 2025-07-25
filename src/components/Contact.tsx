@@ -35,7 +35,7 @@ export function Contacto() {
           </p>
         </div>
 
-        <div className="h-[19vh] w-full bg-white">
+        <div className="h-[19svh] w-full bg-white">
           <div className="mx-auto flex h-full w-41.5 items-center justify-between">
             <Image
               alt=""

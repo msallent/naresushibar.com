@@ -28,7 +28,7 @@ export function Reservations() {
           *Almuerzos de 12hs a 15hs
         </p>
 
-        <button className="absolute inset-x-1/2 bottom-[13.57vh] w-27 -translate-x-1/2 cursor-pointer">
+        <button className="absolute inset-x-1/2 bottom-[13.57%] w-27 -translate-x-1/2 cursor-pointer">
           <Image alt="" src={border} quality={100} placeholder="blur" />
 
           <p className="font-secondary text-10 absolute inset-x-1/2 top-1/2 mt-px w-full -translate-1/2 font-semibold text-white">
