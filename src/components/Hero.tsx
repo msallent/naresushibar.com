@@ -53,7 +53,7 @@ export function Hero() {
         src={logo}
         quality={100}
         placeholder="blur"
-        className="absolute inset-1/2 w-[42vw] -translate-1/2"
+        className="absolute inset-1/2 w-42 -translate-1/2"
       />
     </section>
   );
