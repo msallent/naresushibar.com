@@ -21,7 +21,7 @@ export function Restaurant() {
             src={salon1}
             quality={100}
             placeholder="blur"
-            className="h-[63.7vh]"
+            className="h-[63.7svh]"
           />
 
           <p className="font-secondary text-9 absolute right-[5.38%] bottom-[7.62%] w-55 text-right text-white">
@@ -35,7 +35,7 @@ export function Restaurant() {
           src={salon2}
           quality={100}
           placeholder="blur"
-          className="h-[36.3vh]"
+          className="h-[36.3svh]"
         />
       </div>
     </section>
