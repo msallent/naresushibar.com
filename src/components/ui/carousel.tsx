@@ -139,14 +139,14 @@ function CarouselProgress(props: ComponentProps<"div">) {
   return (
     <div
       role="progressbar"
-      className="absolute inset-x-1/2 bottom-[5.14%] flex w-min -translate-x-1/2 justify-center gap-1.5 sm:gap-2 lg:gap-2.5"
+      className="absolute inset-x-1/2 bottom-[5.14%] flex w-min -translate-x-1/2 justify-center gap-1.5 sm:gap-2 md:bottom-[7%] lg:gap-2.5"
       {...props}
     >
       {Array.from({ length: count }, (_, index) => (
         <button
           key={index}
           onClick={() => scrollTo(index)}
-          className={`z-10 flex size-2 cursor-pointer rounded-full sm:size-2.5 lg:size-3 ${
+          className={`z-10 flex size-2 cursor-pointer rounded-full sm:size-2.5 md:size-3 ${
             index === current - 1 ? "bg-white" : "bg-[#CCCDCE]"
           }`}
         />

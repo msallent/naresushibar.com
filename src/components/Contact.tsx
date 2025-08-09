@@ -6,7 +6,7 @@ export function Contacto() {
   return (
     <section id="contacto" className="section">
       <div className="flex h-full flex-col items-center">
-        <div className="font-secondary text-9 flex w-52 flex-1 flex-col items-center justify-center text-center">
+        <div className="font-secondary text-9 md:text-18 flex w-52 flex-1 flex-col items-center justify-center text-center md:w-[45%]">
           <p className="font-medium">Contacto</p>
 
           <br />
@@ -35,14 +35,14 @@ export function Contacto() {
           </p>
         </div>
 
-        <div className="h-[19svh] w-full bg-white">
-          <div className="mx-auto flex h-full w-41.5 items-center justify-between">
+        <div className="h-[19svh] w-full bg-white md:h-[23svh]">
+          <div className="mx-auto flex h-full w-41.5 items-center justify-between md:w-[30.66%]">
             <Image
               alt=""
               src={logo}
               quality={100}
               placeholder="blur"
-              className="h-6.75 w-12"
+              className="h-6.75 w-12 md:h-[28%] md:w-auto"
             />
 
             <Image
@@ -50,7 +50,7 @@ export function Contacto() {
               src={logoRiko}
               quality={100}
               placeholder="blur"
-              className="h-9 w-12.5"
+              className="h-9 w-12.5 md:h-[37.09%] md:w-auto"
             />
           </div>
         </div>
