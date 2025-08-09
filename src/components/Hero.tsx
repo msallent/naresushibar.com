@@ -4,12 +4,16 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import hero1 from "@/assets/images/hero-1.jpg";
 import hero1Md from "@/assets/images/hero-1-md.jpg";
+import hero1Lg from "@/assets/images/hero-1-lg.jpg";
 import hero2 from "@/assets/images/hero-2.jpg";
 import hero2Md from "@/assets/images/hero-2-md.jpg";
+import hero2Lg from "@/assets/images/hero-2-lg.jpg";
 import hero3 from "@/assets/images/hero-3.jpg";
 import hero3Md from "@/assets/images/hero-3-md.jpg";
+import hero3Lg from "@/assets/images/hero-3-lg.jpg";
 import hero4 from "@/assets/images/hero-4.jpg";
 import hero4Md from "@/assets/images/hero-4-md.jpg";
+import hero4Lg from "@/assets/images/hero-4-lg.jpg";
 import hero5 from "@/assets/images/hero-5.jpg";
 import logo from "@/assets/images/logo-w.png";
 import {
@@ -22,7 +26,7 @@ import {
 const HERO_IMAGES = {
   sm: [hero1, hero2, hero3, hero4, hero5],
   md: [hero1Md, hero2Md, hero3Md, hero4Md],
-  lg: [hero1Md, hero2Md, hero3Md, hero4Md],
+  lg: [hero1Lg, hero2Lg, hero3Lg, hero4Lg],
 };
 
 export function Hero() {
