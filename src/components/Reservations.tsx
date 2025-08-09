@@ -31,9 +31,14 @@ export function Reservations() {
         <button className="absolute inset-x-1/2 bottom-[13.57%] w-27 -translate-x-1/2 cursor-pointer">
           <Image alt="" src={border} quality={100} placeholder="blur" />
 
-          <p className="font-secondary text-10 absolute inset-x-1/2 top-1/2 mt-px w-full -translate-1/2 font-semibold text-white">
+          <a
+            href="https://www.wokiapp.com/reservas/nare-sushi-bar"
+            target="_blank"
+            rel="noreferrer"
+            className="font-secondary text-10 absolute inset-0 mt-px flex items-center justify-center font-semibold text-white"
+          >
             Reservar
-          </p>
+          </a>
         </button>
       </div>
     </section>

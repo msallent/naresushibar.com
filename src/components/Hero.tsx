@@ -38,9 +38,15 @@ export function Hero() {
       </Carousel>
 
       <nav className="text-12 absolute inset-x-0 top-[5%] flex justify-center gap-4 text-white [&>a]:underline">
-        <a href="#about">Reservas</a>
+        <a
+          href="https://www.wokiapp.com/reservas/nare-sushi-bar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Reservas
+        </a>
         <a href="#contacto">Contacto</a>
-        <a href="#contacto">Horarios</a>
+        <a href="#reservas">Horarios</a>
       </nav>
 
       <div className="text-10 absolute top-[67.8%] left-[7%] flex w-[60.2%] origin-left rotate-270 justify-between text-white">
