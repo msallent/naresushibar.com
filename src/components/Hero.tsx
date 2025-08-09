@@ -43,7 +43,7 @@ export function Hero() {
         <a href="#contacto">Horarios</a>
       </nav>
 
-      <div className="text-10 absolute top-1/2 left-[7%] flex h-[33.5%] -translate-y-1/2 justify-between text-white [writing-mode:sideways-lr]">
+      <div className="text-10 absolute top-[67.8%] left-[7%] flex w-[60.2%] origin-left rotate-270 justify-between text-white">
         <p>Virrey Loreto 2035</p>
         <p>piso 2</p>
       </div>
