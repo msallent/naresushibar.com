@@ -1,5 +1,6 @@
 import Image from "next/image";
 import salon1 from "@/assets/images/salon-1.jpg";
+import salon1Md from "@/assets/images/salon-1-md.jpg";
 import salon2 from "@/assets/images/salon-2.jpg";
 import logo from "@/assets/images/logo-w-s.png";
 
@@ -21,7 +22,15 @@ export function Restaurant() {
             src={salon1}
             quality={100}
             placeholder="blur"
-            className="h-[63.7svh] md:h-full md:object-cover md:object-[40%]"
+            className="h-[63.7svh] md:hidden"
+          />
+
+          <Image
+            alt=""
+            src={salon1Md}
+            quality={100}
+            placeholder="blur"
+            className="hidden md:block md:h-full md:object-cover md:object-[40%]"
           />
 
           <p className="font-secondary text-9 md:text-18 absolute right-[5.38%] bottom-[7.62%] w-55 text-right text-white md:right-[7vw] md:bottom-[11.3%] md:w-[46vw]">

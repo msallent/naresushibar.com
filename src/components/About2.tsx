@@ -7,13 +7,13 @@ import comida4 from "@/assets/images/comida-4.jpg";
 export function About2() {
   return (
     <section id="about2" className="section">
-      <p className="font-secondary text-10 md:text-20 absolute inset-x-1/2 top-1/2 w-52 -translate-1/2 text-center text-white md:order-2 md:mx-auto md:mt-[7.8%] md:mb-0 md:w-[60%] md:text-center">
+      <p className="font-secondary text-10 md:text-20 absolute inset-x-1/2 top-1/2 w-52 -translate-1/2 text-center text-white md:static md:inset-auto md:order-2 md:mx-auto md:flex md:w-[60%] md:flex-1 md:translate-none md:items-center md:justify-center md:text-center md:text-black">
         Desde el año 2017 nuestra búsqueda esta en la materia prima,
         obsesionados con la calidad, la variedad y las distintas técnicas del
         pescado hasta dar con el mejor proveedor de arroz del país.
       </p>
 
-      <div className="flex flex-1 flex-col md:order-1 md:mt-[10%] md:h-1/2 md:max-h-1/2 md:w-full md:flex-row">
+      <div className="flex flex-1 flex-col md:order-1 md:h-1/2 md:max-h-1/2 md:w-full md:flex-row">
         <div className="flex flex-1">
           <Image
             alt=""

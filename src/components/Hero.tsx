@@ -30,8 +30,8 @@ const HERO_IMAGES = {
 };
 
 export function Hero() {
-  const isMd = useMediaQuery("(min-width: 768px) and (max-width: 1023px)");
-  const isLg = useMediaQuery("(min-width: 1024px)");
+  const isMd = useMediaQuery("(min-width: 768px) and (max-width: 1279px)");
+  const isLg = useMediaQuery("(min-width: 1280px)");
 
   const heroImages = HERO_IMAGES[isLg ? "lg" : isMd ? "md" : "sm"];
 
@@ -69,7 +69,7 @@ export function Hero() {
         <a href="#reservas">Horarios</a>
       </nav>
 
-      <div className="text-10 md:text-18 absolute top-[67.8%] left-[7%] flex w-[60.2%] origin-left rotate-270 justify-between text-white md:top-auto md:bottom-[16%] md:left-[18.6%] md:w-[56%] md:origin-center md:rotate-none">
+      <div className="text-10 md:text-18 absolute top-[67.8%] left-[7%] flex w-[60.2%] origin-left rotate-270 justify-between text-white md:top-auto md:bottom-[16%] md:left-[18%] md:w-[56%] md:origin-center md:rotate-none">
         <p>Virrey Loreto 2035</p>
         <p>piso 2</p>
       </div>

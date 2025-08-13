@@ -6,13 +6,13 @@ export function Contacto() {
   return (
     <section id="contacto" className="section">
       <div className="flex h-full flex-col items-center">
-        <div className="font-secondary text-9 md:text-18 flex w-52 flex-1 flex-col items-center justify-center gap-2 text-center md:w-[45%]">
-          <div className="flex flex-col gap-2">
+        <div className="font-secondary text-9 md:text-18 flex w-52 flex-1 flex-col items-center justify-center gap-2 text-center md:w-[45%] md:gap-6">
+          <div className="flex flex-col gap-2 md:gap-6">
             <p className="font-medium">Contacto</p>
             <p className="font-light">+54115347394 / info@naresushibar.com</p>
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 md:gap-6">
             <p className="font-medium">Ubicación</p>
 
             <p className="font-light">
@@ -21,7 +21,7 @@ export function Contacto() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 md:gap-6">
             <p className="font-medium">Horarios</p>
 
             <p className="font-light">
