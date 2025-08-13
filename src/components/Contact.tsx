@@ -6,33 +6,29 @@ export function Contacto() {
   return (
     <section id="contacto" className="section">
       <div className="flex h-full flex-col items-center">
-        <div className="font-secondary text-9 md:text-18 flex w-52 flex-1 flex-col items-center justify-center text-center md:w-[45%]">
-          <p className="font-medium">Contacto</p>
+        <div className="font-secondary text-9 md:text-18 flex w-52 flex-1 flex-col items-center justify-center gap-2 text-center md:w-[45%]">
+          <div className="flex flex-col gap-2">
+            <p className="font-medium">Contacto</p>
+            <p className="font-light">+54115347394 / info@naresushibar.com</p>
+          </div>
 
-          <br />
+          <div className="flex flex-col gap-2">
+            <p className="font-medium">Ubicación</p>
 
-          <p className="font-light">+54115347394 / info@naresushibar.com</p>
+            <p className="font-light">
+              Virrey Loreto 2035, 2do piso
+              <br /> Buenos Aires
+            </p>
+          </div>
 
-          <br />
+          <div className="flex flex-col gap-2">
+            <p className="font-medium">Horarios</p>
 
-          <p className="font-medium">Ubicación</p>
-
-          <br />
-
-          <p className="font-light">
-            Virrey Loreto 2035, 2do piso
-            <br /> Buenos Aires
-          </p>
-
-          <br />
-
-          <p className="font-medium">Horarios</p>
-
-          <br />
-
-          <p className="font-light">
-            Lunes a Sábados a partir de las 20hs *Almuerzos de 12hs a 15hs
-          </p>
+            <p className="font-light">
+              Lunes a Sábados a partir de las 20hs
+              <br /> *Almuerzos de 12hs a 15hs
+            </p>
+          </div>
         </div>
 
         <div className="h-[19svh] w-full bg-white md:h-[23svh]">

@@ -1,9 +1,9 @@
 export function About() {
   return (
     <section id="about" className="section">
-      <div className="font-secondary text-15 md:text-22 absolute inset-x-1/2 top-1/2 w-[56.4%] -translate-1/2 text-center md:w-[47.16%]">
+      <div className="font-secondary text-15 md:text-22 absolute inset-x-1/2 top-1/2 w-[55%] -translate-1/2 text-center md:w-[47.16%]">
         <p>
-          Nare Sushi Bar, una re-interpretación de la cocina japonesa
+          Nare Sushi Bar, es una re-interpretación de la cocina japonesa
           tradicional.
         </p>
         <p>
