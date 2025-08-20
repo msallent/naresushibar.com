@@ -57,7 +57,7 @@ export function Hero() {
         <CarouselProgress />
       </Carousel>
 
-      <nav className="text-12 md:text-18 absolute inset-x-0 top-[5%] flex justify-center gap-4 text-white md:gap-8 [&>a]:underline">
+      <nav className="text-12 md:text-18 xl:text-20 2xl:text-24 absolute inset-x-0 top-[5%] flex justify-center gap-4 text-white md:gap-8 xl:gap-10 2xl:gap-12 [&>a]:underline">
         <a
           href="https://www.wokiapp.com/reservas/nare-sushi-bar"
           target="_blank"
@@ -69,7 +69,7 @@ export function Hero() {
         <a href="#reservas">Horarios</a>
       </nav>
 
-      <div className="text-10 md:text-18 absolute top-1/2 left-[7%] flex w-59 origin-left translate-y-29.5 rotate-270 justify-between text-white md:top-auto md:bottom-[16%] md:left-1/2 md:w-107 md:origin-center md:-translate-x-1/2 md:translate-y-0 md:rotate-none lg:left-[18%] lg:w-143 lg:translate-none">
+      <div className="text-10 md:text-18 xl:text-20 2xl:text-24 absolute top-1/2 left-[7%] flex w-59 origin-left translate-y-29.5 rotate-270 justify-between text-white md:top-auto md:bottom-[16%] md:left-1/2 md:w-107 md:origin-center md:-translate-x-1/2 md:translate-y-0 md:rotate-none lg:left-[18%] lg:w-143 lg:translate-none xl:inset-x-[10%] xl:bottom-[10%] xl:w-auto">
         <p>Virrey Loreto 2035</p>
         <p>piso 2</p>
       </div>
@@ -79,7 +79,7 @@ export function Hero() {
         src={logo}
         quality={100}
         placeholder="blur"
-        className="absolute inset-1/2 w-42 -translate-1/2 md:top-[48%] md:w-65"
+        className="absolute inset-1/2 w-42 -translate-1/2 md:top-[48%] md:w-65 xl:top-[49%] xl:w-62 2xl:w-75"
       />
     </section>
   );

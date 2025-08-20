@@ -43,13 +43,13 @@ export function Reservations() {
           />
         </div>
 
-        <p className="font-secondary text-13 md:text-22 absolute inset-x-1/2 top-1/2 w-45 -translate-1/2 text-center font-light text-white md:top-1/2 md:w-80 md:-translate-y-1/2 lg:top-[34%] lg:translate-y-0">
+        <p className="font-secondary text-13 md:text-22 absolute inset-x-1/2 top-1/2 w-45 -translate-1/2 text-center font-light text-white md:top-1/2 md:w-80 md:-translate-y-1/2 lg:top-[34%] lg:translate-y-0 xl:top-[42%] xl:w-90">
           Martes a Sábados a partir de las 20hs
           <br /> <br />
           *Almuerzos de 12hs a 15hs
         </p>
 
-        <button className="absolute inset-x-1/2 bottom-[13.57%] w-27 -translate-x-1/2 cursor-pointer md:bottom-[24.6%] md:w-55">
+        <button className="absolute inset-x-1/2 bottom-[13.57%] w-27 -translate-x-1/2 cursor-pointer md:bottom-[24.6%] md:w-54 xl:bottom-[17.2%] xl:w-70 2xl:w-75">
           <Image alt="" src={border} quality={100} placeholder="blur" />
 
           <a
@@ -62,7 +62,7 @@ export function Reservations() {
           </a>
         </button>
 
-        <div className="lg:text-18 hidden lg:absolute lg:inset-auto lg:top-1/2 lg:left-[92.3%] lg:flex lg:w-145 lg:origin-left lg:translate-x-0 lg:translate-y-72.5 lg:rotate-270 lg:justify-between lg:text-white">
+        <div className="lg:text-18 xl:text-20 2xl:text-22 hidden lg:absolute lg:inset-auto lg:top-1/2 lg:left-[92.3%] lg:flex lg:w-145 lg:origin-left lg:translate-x-0 lg:translate-y-72.5 lg:rotate-270 lg:justify-between lg:text-white xl:left-[95.5%] 2xl:w-155 2xl:translate-y-77.5">
           <p>Virrey Loreto 2035</p>
           <p>piso 2</p>
         </div>
