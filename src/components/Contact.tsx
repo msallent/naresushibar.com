@@ -25,8 +25,7 @@ export function Contacto() {
             <p className="font-medium">Horarios</p>
 
             <p className="font-light">
-              Lunes a Sábados a partir de las 20hs
-              <br /> *Almuerzos de 12hs a 15hs
+              Lunes a Sábados a partir de las 19.30hs
             </p>
           </div>
         </div>
