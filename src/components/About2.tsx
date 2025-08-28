@@ -18,7 +18,7 @@ export function About2() {
       </p>
 
       <div className="flex h-full flex-col lg:order-1 lg:h-1/2 lg:max-h-1/2 lg:w-full lg:flex-row xl:hidden">
-        <div className="flex h-1/2 lg:h-full">
+        <div className="flex h-[50svh] lg:h-full">
           <Image
             alt=""
             src={comida1}
@@ -36,7 +36,7 @@ export function About2() {
           />
         </div>
 
-        <div className="flex h-1/2 lg:h-full">
+        <div className="flex h-[50svh] lg:h-full">
           <Image
             alt=""
             src={comida3}
