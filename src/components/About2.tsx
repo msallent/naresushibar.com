@@ -14,17 +14,17 @@ export function About2() {
       <p className="font-secondary text-10 md:text-20 2xl:text-22 absolute inset-x-1/2 top-1/2 w-52 -translate-1/2 text-center text-white md:w-100 lg:static lg:inset-auto lg:order-2 lg:mx-auto lg:flex lg:w-150 lg:flex-1 lg:translate-none lg:items-center lg:justify-center lg:text-center lg:text-black xl:absolute xl:bottom-[10%] xl:left-[4%] xl:w-200 xl:text-left xl:text-white 2xl:w-220">
         Desde el año 2017 nuestra búsqueda esta en la materia prima,
         obsesionados con la calidad, la variedad y las distintas técnicas del
-        pescado hasta dar con el mejor proveedor de arroz del país!
+        pescado hasta dar con el mejor proveedor de arroz del país.
       </p>
 
-      <div className="flex h-svh flex-col lg:order-1 lg:h-1/2 lg:max-h-1/2 lg:w-full lg:flex-row xl:hidden">
+      <div className="flex h-full flex-col lg:order-1 lg:h-1/2 lg:max-h-1/2 lg:w-full lg:flex-row xl:hidden">
         <div className="flex h-1/2 lg:h-full">
           <Image
             alt=""
             src={comida1}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 flex-1 object-cover object-right"
+            className="h-full max-w-1/2 object-cover object-right"
           />
 
           <Image
@@ -32,7 +32,7 @@ export function About2() {
             src={comida2}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 flex-1 object-cover object-left"
+            className="h-full max-w-1/2 object-cover object-left"
           />
         </div>
 
@@ -42,7 +42,7 @@ export function About2() {
             src={comida3}
             quality={100}
             placeholder="blur"
-            className="max-w-1/2 flex-1 object-cover object-right md:object-bottom"
+            className="h-full max-w-1/2 flex-1 object-cover object-right md:object-bottom"
           />
 
           <Image
@@ -50,7 +50,7 @@ export function About2() {
             src={comida4}
             quality={100}
             placeholder="blur"
-            className="max-w-1/2 flex-1 object-cover object-left"
+            className="h-full max-w-1/2 flex-1 object-cover object-left"
           />
         </div>
       </div>
