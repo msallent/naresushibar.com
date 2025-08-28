@@ -24,7 +24,7 @@ export function About2() {
             src={comida1}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 object-cover object-right"
+            className="h-full max-w-1/2 flex-1 object-cover object-right"
           />
 
           <Image
@@ -32,7 +32,7 @@ export function About2() {
             src={comida2}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 object-cover object-left"
+            className="h-full max-w-1/2 flex-1 object-cover object-left"
           />
         </div>
 
