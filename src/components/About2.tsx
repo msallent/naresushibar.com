@@ -17,14 +17,14 @@ export function About2() {
         pescado hasta dar con el mejor proveedor de arroz del país.
       </p>
 
-      <div className="flex h-full flex-col lg:order-1 lg:h-1/2 lg:max-h-1/2 lg:w-full lg:flex-row xl:hidden">
+      <div className="flex h-full flex-col bg-black lg:order-1 lg:h-1/2 lg:max-h-1/2 lg:w-full lg:flex-row xl:hidden">
         <div className="flex h-1/2 lg:h-full">
           <Image
             alt=""
             src={comida1}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 flex-1 object-cover object-right"
+            className="min-w-0 flex-1 object-cover object-right"
           />
 
           <Image
@@ -32,7 +32,7 @@ export function About2() {
             src={comida2}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 flex-1 object-cover object-left"
+            className="min-w-0 flex-1 object-cover object-left"
           />
         </div>
 
@@ -42,7 +42,7 @@ export function About2() {
             src={comida3}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 flex-1 object-cover object-right md:object-bottom"
+            className="min-w-0 flex-1 object-cover object-right md:object-bottom"
           />
 
           <Image
@@ -50,7 +50,7 @@ export function About2() {
             src={comida4}
             quality={100}
             placeholder="blur"
-            className="h-full max-w-1/2 flex-1 object-cover object-left"
+            className="min-w-0 flex-1 object-cover object-left"
           />
         </div>
       </div>
