@@ -40,7 +40,7 @@ export function Restaurant() {
             src={salon1Xl}
             quality={100}
             placeholder="blur"
-            className="xl:block xl:h-full xl:w-full xl:object-cover"
+            className="hidden xl:block xl:h-full xl:w-full xl:object-cover"
           />
 
           <p className="font-secondary text-9 md:text-18 xl:text-20 2xl:text-22 absolute right-[5.38%] bottom-[7.62%] w-55 text-right text-white md:bottom-[5%] md:w-116 lg:right-[7vw] lg:bottom-[11.3%] xl:right-[6.5vw] xl:w-150 2xl:w-170">
