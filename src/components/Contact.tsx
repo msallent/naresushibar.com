@@ -25,7 +25,7 @@ export function Contacto() {
             <p className="font-medium">Horarios</p>
 
             <p className="font-light">
-              Lunes a Sábados a partir de las 19.30hs
+              Martes a Sábados a partir de las 19.30hs
             </p>
           </div>
         </div>
